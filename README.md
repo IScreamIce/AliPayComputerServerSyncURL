@@ -1,4 +1,5 @@
-# AliPayComputerServerSyncURL
+# PayServerSyncURL
+
 完成支付后，阿里微信将异步告知指定外网服务器，捕获阿里微信等访问者的请求参数
 
 

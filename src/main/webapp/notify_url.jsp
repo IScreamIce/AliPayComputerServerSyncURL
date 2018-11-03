@@ -18,9 +18,9 @@
     }
 
     application.setAttribute("message", application.getAttribute("message") == null ? ""+new JSONObject(map) : application.getAttribute("message").toString() + new JSONObject(map));
-    out.write(application.getAttribute("message").toString());
+    out.write(application.getAttribute("message").toString());		//输出存储在application中的json请求数据
     if (1 == 1) return;
-    //    记录完毕
+    //    记录完毕，存储在application中，并跳出
 
     /* *
      * 功能：支付宝服务器异步通知页面
